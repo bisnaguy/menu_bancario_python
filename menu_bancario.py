@@ -1,4 +1,5 @@
 menu = """
+          MENU
 
         [q] - Sair
         [d] - Depositar
@@ -48,7 +49,7 @@ while True:
           extra = "Extrato"
           print(extra.center(50,"-"))
           print(extrato)
-          print(f"O seu saldo atual é de R$ {saldo:.2f} você realizaou {quantidade_deposito} depósitos e {quantidade_saque} saques")
+          print(f"O seu saldo atual é de R$ {saldo:.2f} você realizou {quantidade_deposito} depósitos e {quantidade_saque} saques")
           print(extra.center(50,"-"))
 
      elif opcao == "q":
